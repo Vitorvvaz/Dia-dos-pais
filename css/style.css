@@ -1,0 +1,203 @@
+body
+{
+    margin: 0;
+    background-color: bisque;
+}
+
+@font-face 
+{
+    font-family: fontetit;
+    src: url(fonte/The\ Smile.otf);
+}
+
+@font-face 
+{
+    font-family: bitter;
+    src: url(fonte/Bittermilk.ttf);
+}
+
+@font-face {
+    font-family: fontefinal;
+    src: url(fonte/);
+}
+
+.titulo
+{
+    position: absolute;
+    color: black;
+    left: 34%;
+    top: 2%;
+    font-size: 25px;
+    font-family: fontetit;
+    background-color: rgb(219, 195, 166);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.texto
+{
+    position: absolute;
+    color: black;
+    left: 34%;
+    top: 50%;
+    font-size: 28px;
+    font-family: bitter;
+}
+
+
+
+.imagem2
+{
+    position: absolute;
+    left: 4%;
+    top: 106%;
+}
+
+.imagem3
+{
+    position: absolute;
+    left: 75%;
+    top: 27%;
+}
+
+.imagem4
+{
+    position: absolute;
+    top: 107%;
+    left: 30%;
+}
+
+.imagem5
+{
+    position: absolute;
+    top: 107%;
+    left: 54%;
+}
+
+.imagem6
+{
+    position: absolute;
+    top: 107%;
+    left: 77%;
+}
+
+.imagem7{
+    position: absolute;
+    top: 23%;
+    left: 46%;
+    border-radius: 2%;
+    background-color: rgb(219, 195, 166);
+    padding: 1%;
+}
+
+
+
+.ass
+{
+    position: absolute;
+    color: black;
+    left: 70%;
+    top: 98%;
+    font-size: 28px;
+    font-family: fontetit;
+}
+
+.titfial
+{
+    position: absolute;
+    color: black;
+    left: 30%;
+    top: 150%;
+    font-size: 46px;
+    font-family: fontetit;
+    background-color: rgb(219, 195, 166);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1020px){
+    .titulo{
+       font-size: 10px; 
+       position: absolute;
+       left: 3%;
+    }
+    
+    .imagem7{
+        position: absolute;
+        top: 21%;
+        left: 8%;
+        border-radius: 2%;
+        background-color: rgb(219, 195, 166);
+        padding: 3%;
+    }
+    
+    .texto{
+        position: absolute;
+        color: black;
+        left: 6%;
+        top: 55%;
+        font-size: 15px;
+        font-family: bitter;
+    }
+
+    .ass
+{
+    position: absolute;
+    color: black;
+    left: 74%;
+    top: 101%;
+    font-size: 20px;
+    font-family: fontetit;
+}
+
+    .imagem2
+    {
+        position: absolute;
+        left: 20%;
+        top: 120%;
+    }
+
+    .imagem3
+{
+    position: absolute;
+    left: 5%;
+    top: 12%;
+}
+
+.imagem4
+{
+    position: absolute;
+    top: 181%;
+    left: 20%;
+}
+
+.imagem5
+{
+    position: absolute;
+    top: 223%;
+    left: 20%;
+}
+
+.imagem6
+{
+    position: absolute;
+    top: 269%;
+    left: 20%;
+}
+
+.titfial
+{
+    position: absolute;
+    color: black;
+    left: 10%;
+    top: 310%;
+    font-size: 17px;
+    font-family: fontetit;
+    background-color: rgb(219, 195, 166);
+    padding: 20px;
+    border-radius: 30px;
+}
+    
+}
+
+
